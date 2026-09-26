@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#08111f">
+<meta name="description" content="SafeSignal Thailand — flood safety information, official sources and emergency contacts.">
+<title>SafeSignal Thailand — Flood Safety</title>
+<style>
+:root{--bg:#f4f7fb;--card:#fff;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--blue:#2563eb;--blue2:#1d4ed8;--red:#dc2626;--amber:#d97706;--green:#15803d;--nav:#08111f;--shadow:0 10px 28px #0f172a12;--r:20px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.45}
+button,a,input,select{font:inherit}button{cursor:pointer}.top{background:var(--nav);color:#fff;padding:13px max(16px,calc((100% - 1120px)/2));display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:20}.brand{font-weight:900;font-size:20px}.brand span{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:9px;background:#fff;color:#08111f;margin-right:7px}.live{margin-left:auto;font-size:11px;font-weight:800;background:#172033;border:1px solid #26344d;padding:7px 10px;border-radius:999px}.live i{display:inline-block;width:7px;height:7px;background:#4ade80;border-radius:50%;margin-right:5px}
+.wrap{max-width:1120px;margin:auto;padding:20px 15px 90px}.updated{font-size:12px;color:var(--muted);margin:4px 0 16px}.hero{background:linear-gradient(135deg,#0f4c81,#163a63);color:#fff;border-radius:25px;padding:25px;box-shadow:var(--shadow);margin-bottom:16px}.hero .label{font-size:11px;letter-spacing:.12em;font-weight:900;text-transform:uppercase;color:#bfdbfe}.hero h1{font-size:clamp(28px,6vw,46px);line-height:1.02;letter-spacing:-1.6px;margin:7px 0}.hero p{max-width:720px;color:#dbeafe;margin:8px 0 0}.alert{background:#fff;border:1px solid #fecaca;border-left:7px solid var(--red);border-radius:18px;padding:17px;margin:16px 0;box-shadow:var(--shadow)}.alert h2{margin:0 0 5px;font-size:21px}.pill{display:inline-flex;gap:6px;align-items:center;border-radius:999px;padding:6px 9px;font-size:11px;font-weight:900}.pill.red{background:#fee2e2;color:#991b1b}.pill.blue{background:#dbeafe;color:#1e40af}.pill.green{background:#dcfce7;color:#166534}.dot{width:7px;height:7px;background:currentColor;border-radius:50%}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:15px}.card{grid-column:span 6;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:19px;box-shadow:var(--shadow)}.full{grid-column:1/-1}.third{grid-column:span 4}.card h2,.card h3{margin:0 0 6px}.muted{color:var(--muted)}.icon{font-size:25px;margin-bottom:7px}.primary{display:block;width:100%;border:0;background:var(--blue);color:#fff;border-radius:14px;padding:14px 16px;font-weight:900;margin-top:13px}.primary:hover{background:var(--blue2)}.secondary{border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px 13px;font-weight:800;color:var(--ink)}.actions{display:flex;gap:8px;flex-wrap:wrap}.actions>*{flex:1;min-width:145px}
+.steps{display:grid;gap:8px;margin-top:13px}.step{display:flex;gap:10px;border:1px solid var(--line);background:#f8fafc;border-radius:13px;padding:11px}.n{width:27px;height:27px;display:grid;place-items:center;flex:none;border-radius:50%;background:#dbeafe;color:#1e40af;font-weight:900}.step b{display:block}.danger{border-color:#fecaca;background:#fffafa}
+.contacts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}.contact{border:1px solid var(--line);border-radius:13px;text-decoration:none;color:inherit;text-align:center;padding:12px;background:#f8fafc}.contact b{font-size:21px;display:block}.contact small{color:var(--muted)}
+.source{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}.tag{font-size:10px;font-weight:850;padding:6px 8px;border-radius:8px;background:#f1f5f9;border:1px solid var(--line)}.official{background:#ecfdf3;border-color:#bbf7d0;color:#166534}
+.list{display:grid;gap:9px}.news{border:1px solid var(--line);border-radius:13px;padding:12px}.news time{font-size:10px;color:var(--muted);font-weight:850}.news strong{display:block;margin:3px 0}.news a{font-size:12px;color:var(--blue);font-weight:800}
+.kitrow{display:flex;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid var(--line)}.kitrow:last-child{border:0}.kitrow input{width:19px;height:19px}.kitrow label{flex:1}.barbg{height:9px;background:#e2e8f0;border-radius:99px;overflow:hidden;margin:10px 0}.bar{height:100%;width:0;background:var(--blue);border-radius:99px}
+.map{height:290px;background:#dbeafe;border:1px solid #bfdbfe;border-radius:17px;overflow:hidden;position:relative;margin-top:12px}.map:before,.map:after{content:"";position:absolute;background:#fff;height:7px;left:-10%;right:-10%;top:42%;transform:rotate(-18deg);box-shadow:0 0 0 2px #cbd5e1}.map:after{top:69%;transform:rotate(25deg)}.maplabel{position:absolute;left:13px;top:13px;background:#fff;padding:8px;border-radius:9px;font-size:11px;font-weight:900;z-index:2}.pin{position:absolute;width:29px;height:29px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);z-index:3}.pin i{display:block;width:9px;height:9px;background:#fff;border-radius:50%;margin:9px}.you{left:31%;top:36%;background:#2563eb}.bma{left:68%;top:57%;background:#16a34a}
+.note{padding:12px;border-radius:13px;background:#fffbeb;border:1px solid #fde68a;color:#854d0e;font-size:13px}.footer{text-align:center;color:var(--muted);font-size:11px;margin-top:20px}.nav{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--line);z-index:30;display:flex;justify-content:center;padding:7px 4px calc(7px + env(safe-area-inset-bottom));box-shadow:0 -5px 18px #0f172a0b}.nav button{border:0;background:none;color:var(--muted);font-size:11px;font-weight:850;padding:8px 12px;border-radius:10px}.nav button:hover{background:#eff6ff;color:#1d4ed8}
+.modal{display:none;position:fixed;inset:0;background:#0008;z-index:50;align-items:flex-end}.modal.open{display:flex}.sheet{background:#fff;width:min(680px,100%);max-height:90vh;overflow:auto;border-radius:24px 24px 0 0;padding:21px}.close{float:right;border:0;width:34px;height:34px;border-radius:50%;background:#f1f5f9;font-size:20px}.toast{position:fixed;right:15px;top:70px;background:#111827;color:#fff;padding:12px 14px;border-radius:12px;display:none;z-index:70;max-width:320px}.toast.show{display:block}
+@media(max-width:760px){.card,.third{grid-column:1/-1}.contacts{grid-template-columns:repeat(3,1fr)}.wrap{padding-bottom:82px}}
+</style>
+</head>
+<body>
+<header class="top">
+ <div class="brand"><span>✦</span>SafeSignal Thailand</div>
+ <div class="live"><i></i>LIVE SOURCE MODE</div>
+</header>
+
+<main class="wrap">
+<div class="updated">Last verified web check: <b>26 September 2026, Bangkok time</b> · Information can change rapidly.</div>
+
+<section class="hero">
+ <div class="label">THAILAND FLOOD RESPONSE</div>
+ <h1>Flooding in Thailand right now.</h1>
+ <p>Fast access to current warnings, what to do, emergency numbers and official information. This page uses verified sources and does not invent shelter or evacuation information.</p>
+</section>
+
+<section class="alert">
+ <span class="pill red"><span class="dot"></span> ACTIVE FLOOD EMERGENCY</span>
+ <h2>Bangkok is experiencing widespread flooding.</h2>
+ <p class="muted">Bangkok has been declared a disaster-affected area. Authorities have warned about rising canal levels and flooding, particularly in low-lying and canal-side areas.</p>
+ <div class="source"><span class="tag official">🛡️ VERIFIED SOURCE</span><span class="tag">BMA / Reuters reporting · 26 Sep 2026</span></div>
+</section>
+
+<div class="grid">
+<section class="card full danger" id="now">
+ <div class="icon">🚨</div><h2>What should I do right now?</h2>
+ <p class="muted">If water is rising around you, prioritize your safety and follow official instructions.</p>
+ <div class="steps">
+  <div class="step"><div class="n">1</div><div><b>Do not walk or drive through floodwater.</b><small>Floodwater can hide hazards and dangerous currents.</small></div></div>
+  <div class="step"><div class="n">2</div><div><b>If you are in a low-lying or canal-side area, monitor official warnings closely.</b><small>Authorities have specifically warned these areas about rising water.</small></div></div>
+  <div class="step"><div class="n">3</div><div><b>Follow an official evacuation instruction if one applies to your area.</b><small>Do not rely on social-media claims for an evacuation order.</small></div></div>
+  <div class="step"><div class="n">4</div><div><b>Keep your phone charged and emergency contacts accessible.</b><small>Move essential items and documents to a safer/higher location only if it is safe to do so.</small></div></div>
+ </div>
+ <button class="primary" onclick="openModal('safety')">Open full flood safety guide</button>
+</section>
+
+<section class="card">
+ <div class="icon">📞</div><h2>Emergency numbers</h2>
+ <p class="muted">Thailand</p>
+ <div class="contacts">
+  <a class="contact" href="tel:191"><b>191</b><small>Emergency / Police</small></a>
+  <a class="contact" href="tel:1669"><b>1669</b><small>Medical emergency</small></a>
+  <a class="contact" href="tel:1784"><b>1784</b><small>DDPM disaster hotline</small></a>
+ </div>
+ <div class="source"><span class="tag official">🛡️ THAILAND.GO.TH / DDPM</span></div>
+</section>
+
+<section class="card">
+ <div class="icon">🌧️</div><h2>Rain & flood warning</h2>
+ <p><b>Heavy to very heavy rain is forecast during September 26–27.</b></p>
+ <p class="muted">The Thai Meteorological Department says heavy rain is expected especially across the North, lower Northeast, Central region including Bangkok and vicinity, East and South, with risk of flash floods, overflows and landslides.</p>
+ <div class="source"><span class="tag official">🛡️ TMD</span><span class="tag">Advisory No. 10 (226/2026)</span></div>
+ <a class="secondary" style="display:inline-block;margin-top:10px;text-decoration:none" href="https://www.tmd.go.th/en/warning-and-events/warning-storm/heavy-to-very-heavy-rain-in-thailand-no-10-226-2026" target="_blank" rel="noopener">Open TMD warning ↗</a>
+</section>
+
+<section class="card" id="updates">
+ <div class="icon">📰</div><h2>What has changed?</h2>
+ <div class="list">
+  <div class="news"><time>26 SEP · TODAY</time><strong>Bangkok declared a disaster-affected area.</strong><span class="muted">The declaration covers all 50 districts according to BMA reporting.</span><br><a href="https://www.nationthailand.com/thailand/bangkok/40071507" target="_blank" rel="noopener">Source: Nation Thailand ↗</a></div>
+  <div class="news"><time>26 SEP · 09:22</time><strong>Cell Broadcast warning sent across Bangkok.</strong><span class="muted">DDPM warned that canal water levels had reached critical levels and were continuing to rise.</span><br><a href="https://www.nationthailand.com/thailand/bangkok/40071510" target="_blank" rel="noopener">Source: Nation Thailand ↗</a></div>
+  <div class="news"><time>26 SEP · TODAY</time><strong>Flooding remains active across multiple provinces.</strong><span class="muted">Authorities are maintaining 24-hour monitoring in affected areas.</span><br><a href="https://www.nationthailand.com/news/general/40071515" target="_blank" rel="noopener">Source: Nation Thailand ↗</a></div>
+ </div>
+</section>
+
+<section class="card">
+ <div class="icon">🧭</div><h2>Evacuation & shelters</h2>
+ <div class="note"><b>Important:</b> No shelter is shown here unless its current location and status can be verified from an authoritative source.</div>
+ <p class="muted">The Bangkok authorities have designated schools as temporary accommodation, according to current reporting. Confirm the specific location and availability before travelling.</p>
+ <button class="primary" onclick="showToast('Shelter locations require live verification before SafeSignal can display a destination.')">Find verified shelter</button>
+ <div class="source"><span class="tag official">🛡️ Verification required</span></div>
+</section>
+
+<section class="card">
+ <div class="icon">🧰</div><h2>Flood emergency kit</h2>
+ <p class="muted">Prepare essentials without panic buying.</p>
+ <div class="barbg"><div class="bar" id="bar"></div></div><b id="pct">0%</b>
+ <div id="kit"></div>
+</section>
+
+<section class="card">
+ <div class="icon">🏠</div><h2>Protect your home</h2>
+ <div class="steps">
+  <div class="step"><div class="n">✓</div><div><b>Move important items higher.</b><small>Only if you can do so without entering dangerous water.</small></div></div>
+  <div class="step"><div class="n">✓</div><div><b>Keep electrical safety in mind.</b><small>Do not handle electrical equipment while standing in water; seek qualified help if power is affected.</small></div></div>
+  <div class="step"><div class="n">✓</div><div><b>Keep exits accessible.</b><small>Know how you would leave if water rises.</small></div></div>
+ </div>
+</section>
+
+<section class="card full">
+ <div class="icon">🗺️</div><h2>Bangkok flood map</h2>
+ <p class="muted">The map area is ready for verified live layers. It intentionally does not fabricate flood boundaries or shelter locations.</p>
+ <div class="map"><div class="maplabel">LIVE HAZARD LAYERS REQUIRE VERIFIED FEEDS</div><div class="pin you"><i></i></div><div class="pin bma"><i></i></div></div>
+ <div class="source"><span class="tag">🔵 Approximate location</span><span class="tag official">🟢 Verified authority layer when available</span></div>
+</section>
+
+<section class="card third">
+ <div class="icon">💧</div><h3>Thailand water data</h3><p class="muted">Official water-resource information can provide rainfall, river and water-management data.</p>
+ <a class="secondary" style="display:inline-block;text-decoration:none" href="https://thaiwater.net/" target="_blank" rel="noopener">Open ThaiWater ↗</a>
+</section>
+<section class="card third">
+ <div class="icon">⚠️</div><h3>DDPM</h3><p class="muted">Department of Disaster Prevention and Mitigation information and disaster reporting.</p>
+ <a class="secondary" style="display:inline-block;text-decoration:none" href="https://www.disaster.go.th/" target="_blank" rel="noopener">Open DDPM ↗</a>
+</section>
+<section class="card third">
+ <div class="icon">🌦️</div><h3>Weather warnings</h3><p class="muted">Thai Meteorological Department official warnings.</p>
+ <a class="secondary" style="display:inline-block;text-decoration:none" href="https://www.tmd.go.th/en/warning-and-events/warning-storm" target="_blank" rel="noopener">Open TMD ↗</a>
+</section>
+
+<section class="card full">
+ <div class="icon">🛡️</div><h2>Trust & freshness</h2>
+ <p class="muted">SafeSignal prioritizes Thai government agencies and verified authorities. It does not treat social-media posts as confirmed facts. When sources disagree, the app should show the disagreement and identify the authoritative source.</p>
+ <div class="source"><span class="tag official">OFFICIAL GOVERNMENT SOURCE</span><span class="tag">VERIFIED NEWS REPORT</span><span class="tag">UNVERIFIED = NOT CONFIRMED</span></div>
+ <p class="updated">This page was generated from information checked on 26 September 2026. Conditions can change quickly; check the linked official sources before making emergency decisions.</p>
+</section>
+</div>
+
+<div class="footer">SafeSignal Thailand · Flood response interface · Always follow current instructions from Thai emergency authorities.</div>
+</main>
+
+<nav class="nav"><button onclick="go('now')">🚨 Now</button><button onclick="go('updates')">📰 Updates</button><button onclick="go('kit')">🧰 Kit</button><button onclick="go('contacts')">📞 Call</button><button onclick="openModal('safety')">📋 Guide</button></nav>
+
+<div class="modal" id="modal"><div class="sheet"><button class="close" onclick="closeModal()">×</button><div id="modalContent"></div></div></div>
+<div class="toast" id="toast"></div>
+
+<script>
+const items=[
+["Drinking water","Keep an appropriate emergency supply for your household.",true],
+["Shelf-stable food","Easy-to-prepare foods for your household.",false],
+["Phone + power bank","Keep devices charged and have backup power.",true],
+["Flashlight","Useful if electricity is interrupted.",false],
+["First aid + medicines","Keep necessary personal medicines accessible.",true],
+["Hygiene supplies","Soap, sanitizer and essential hygiene items.",false],
+["Important documents","Keep protected copies accessible.",true],
+["Pet supplies","Food, water and necessary pet items if applicable.",false]
+];
+let state=JSON.parse(localStorage.getItem("ssth-kit")||"null")||items.map(x=>x[2]);
+function render(){let box=document.getElementById("kit");box.innerHTML="";state.forEach((v,i)=>{let d=document.createElement("div");d.className="kitrow";d.innerHTML=`<input type="checkbox" ${v?"checked":""} aria-label="${items[i][0]}"><label><b>${items[i][0]}</b><br><small class="muted">${items[i][1]}</small></label>`;d.querySelector("input").onchange=e=>{state[i]=e.target.checked;localStorage.setItem("ssth-kit",JSON.stringify(state));render()};box.appendChild(d)});let p=Math.round(state.filter(Boolean).length/state.length*100);document.getElementById("pct").textContent=p+"%";document.getElementById("bar").style.width=p+"%"}render();
+function go(id){document.getElementById(id).scrollIntoView({behavior:"smooth",block:"start"})}
+function showToast(x){let t=document.getElementById("toast");t.textContent=x;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),3200)}
+function openModal(type){let c=document.getElementById("modalContent");if(type==="safety")c.innerHTML=`<h2>🌊 Flood safety guide</h2><div class="steps"><div class="step"><div class="n">1</div><div><b>Get to a safer place if water is rising.</b><br>Follow official evacuation instructions and do not wait until routes become impassable.</div></div><div class="step"><div class="n">2</div><div><b>Stay out of floodwater.</b><br>Do not drive, cycle or walk through flooded areas where the depth or current is unknown.</div></div><div class="step"><div class="n">3</div><div><b>Protect electricity.</b><br>Do not touch electrical equipment while standing in water. If there is an electrical hazard, keep away and contact the appropriate authority.</div></div><div class="step"><div class="n">4</div><div><b>Keep informed.</b><br>Check TMD, DDPM, BMA and other relevant authorities for the latest instructions.</div></div></div><h3>🚨 If someone is in immediate danger</h3><p>Call the appropriate emergency service: <b>191</b> for urgent emergency/police assistance or <b>1669</b> for a medical emergency. DDPM's disaster hotline is <b>1784</b>.</p><div class="source"><span class="tag official">Official numbers verified against Thai government sources</span></div>`;document.getElementById("modal").classList.add("open")}
+function closeModal(){document.getElementById("modal").classList.remove("open")}
+document.getElementById("modal").onclick=e=>{if(e.target.id==="modal")closeModal()}
+</script>
+</body>
+</html>
